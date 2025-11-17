@@ -10,7 +10,7 @@ from datetime import datetime
 import logging
 
 from app.models.workflow import (
-    WorkflowDefinition, WorkflowStage, WorkflowVersion,
+    WorkflowDefinition, WorkflowStage, WorkflowVersion, WorkflowInstance,
     NodeType, WorkflowStatus, ConditionalRoute, ApprovalType
 )
 from app.models.user import User
